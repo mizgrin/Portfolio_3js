@@ -5,7 +5,7 @@ import { styles } from '../styles'
 
 const Hero = () => {
   const downloadCV = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1Qbrt4sBlSApYrwmuss1lWKkIBgMzGQ5H', '_blank');
+    window.open('https://drive.google.com/file/d/1Mh8EENQYj4FQgS1xpUaRXrYDvOS9ZiZG/view?usp=sharing', '_blank');
   }
   return (
     <section className='relative w-full h-screen mx-auto'>

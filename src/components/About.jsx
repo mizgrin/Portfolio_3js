@@ -5,6 +5,7 @@ import {styles} from '../styles';
 import { services } from '../constants';
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc';
+import { myImage } from '../constants';
 
 const ServiceCard = ({index, title, icon}) =>{
   return(
@@ -32,7 +33,8 @@ const About = () => {
           <p className={styles.sectionSubText}>Overview</p>  
           <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
-      <motion.div variants={fadeIn('','', 0.1, 1)}>
+      <motion.div className="flex sm:flex-row flex-col-reverse " variants={fadeIn('','', 0.1, 1)}>
+      <div  className='sm:w-6/12 w-full'>
           <p className='mt-4 text-secondary text-[17px] mx-w-3x; leading-[30px]'>
           <strong>Experienced Frontend Web Developer </strong>and <strong> Fullstack WordPress Developer </strong> with a proven track record of delivering high-quality web solutions. 
           <strong> Proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery) </strong>, with a keen eye for design and user experience. 
@@ -40,6 +42,11 @@ const About = () => {
            Additionally, adept at <strong> WordPress development </strong>, including theme customization, plugin integration, and backend functionality implementation. 
             In my current role, I am actively  <strong> investing time and effort </strong> into deepening my proficiency in  <strong> React.js and tailwind css </strong>, with a dedicated focus on expanding my skill set within these frameworks. Collaborative team player dedicated to delivering innovative and impactful digital solutions
           </p>
+      </div>
+      <div className="sm:w-6/12 w-full translate-y-0 transform xs:-translate-y-1/2" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
+  <img src={myImage} alt="" />
+</div>
+
       </motion.div>
       <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index) => (

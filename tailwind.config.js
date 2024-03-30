@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      filter: {
+        'custom-drop-shadow': 'drop-shadow(7px -2px 6px #a9f7f766)',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -23,6 +26,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      
     },
   },
   plugins: [],

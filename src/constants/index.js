@@ -34,7 +34,7 @@ import {
     {
       id: "about",
       title: "About",
-      disabled:'true'
+      disabled:'false'
     },
     {
       id: "work",
@@ -50,19 +50,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Designer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Wordpress developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Website Customization",
       icon: creator,
     },
   ];

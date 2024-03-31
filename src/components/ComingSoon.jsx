@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
 
 const ComingSoon = () => {
     const [expanded, setExpanded] = useState(false);
@@ -41,4 +42,4 @@ const ComingSoon = () => {
     );
 };
 
-export default ComingSoon;
+export default SectionWrapper(ComingSoon, "comingsoon");

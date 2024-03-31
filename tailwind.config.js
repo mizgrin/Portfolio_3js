@@ -7,6 +7,9 @@ module.exports = {
       filter: {
         'custom-drop-shadow': 'drop-shadow(7px -2px 6px #a9f7f766)',
       },
+      textShadow: {
+        DEFAULT: '0 1px 0 rgba(0, 0, 0, 0.4)',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -29,5 +32,7 @@ module.exports = {
       
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 };

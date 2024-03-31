@@ -15,15 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    inctic,
+    fintech,
+    school,
     carrent,
     jobit,
     tripguide,
     threejs,
-    myImage
+    myImage,
   } from "../assets";
   
   export const navLinks = [
@@ -40,7 +39,7 @@ import {
     {
       id: "work",
       title: "Work",
-      disabled:'true'
+      disabled:'false'
     },
     {
       id: "contact",
@@ -51,7 +50,7 @@ import {
   
   const services = [
     {
-      title: "Web Designer",
+      title: "Website Designer",
       icon: web,
     },
     {
@@ -63,7 +62,7 @@ import {
       icon: backend,
     },
     {
-      title: "Website Customization",
+      title: "Graphic Design",
       icon: creator,
     },
   ];
@@ -125,55 +124,65 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Secondary level computer teacher",
+      company_name: "New Holy Cross School",
+      company_website:"/",
+      icon:school ,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2016 - November 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Delivered comprehensive instruction and support in computer fundamentals to secondary level students as a dedicated computer teacher."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Website Designer",
+      company_name: "Fintech Nepal",
+      company_website:"https://fintechnepal.com/",
+      icon: fintech,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2018 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       " Proficient in meticulously translating PSD mockups into pixel-perfect HTML and CSS code, guaranteeing the creation of responsive webpages that adhere closely to design specifications.",
+       " Skilled in crafting intuitive UI/UX interfaces utilizing Semantic HTML, SCSS, JavaScript, and jQuery, ensuring seamless user experiences across platforms.",
+       " Demonstrated expertise in swiftly identifying and resolving intricate CSS and JavaScript issues within diverse projects, optimizing performance and functionality.",
+       " Exemplary leadership qualities showcased through mentoring interns and junior developers, coupled with adept planning and delegation of frontend tasks to achieve project objectives efficiently.",
+       " Proven track record of delivering high-quality frontend solutions through a meticulous approach to detail and a commitment to excellence.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full stack wordpress Developer",
+      company_name: "Fintech Nepal",
+      company_website:"www.fintechnepal.com.np",
+      icon: fintech,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "2020 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Proficient in seamlessly translating PSD and Figma designs into meticulously crafted responsive HTML and SCSS code, augmenting interactivity using PHP within the WordPress framework.",
+        " Skilled in proficiently deploying dynamic wordpress websites to clients' domains, ensuring flawless functionality and user satisfaction.",
+       " Demonstrated expertise in diligently maintaining and updating existing WordPress projects, with a focus on optimizing performance and enhancing overall user experience.",
+       " Proven track record of delivering exceptional results through meticulous attention to detail and a commitment to staying abreast of the latest industry trends and best practices.",
+       " Adept at collaborating with cross-functional teams to drive successful  project outcomes, coupled with strong communication and problem-solving skills.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software engineer - Frontend",
+      company_name: "Inctic labs",
+      company_website:"www.inctic.io",
+      icon: inctic,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed responsive web applications using JavaScript, HTML5, CSS3 and SCSS.",
+         "Developed and maintained UI designs with Figma tools",
+          "Proficient in JavaScript and Jquery for enhancing frontend functionalities.",
+         " Utilized Git for version control and collaborated within development teams.",
+         " Implemented responsive design principles and Material UI and Semantics HTML for visually appealing interfaces.",
+        "  Experienced in using blade files in Laravel development.",
+         " Adapted quickly to emerging technologies and systems.",
+        "  Demonstrated an independent mindset to drive project goals forward.",
       ],
     },
   ];

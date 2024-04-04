@@ -31,6 +31,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import myImage from "./mizan12.png"
 
+import facebook from "./socialmedia/facebook.png";
+import instagram from "./socialmedia/instagram.png";
+import linkedin from "./socialmedia/linkedin.png";
+import gitmedia from "./socialmedia/github.png";
+
 export {
   logo,
   backend,
@@ -59,5 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  myImage
+  myImage,
+  facebook,
+  instagram,
+  linkedin,
+  gitmedia
 };

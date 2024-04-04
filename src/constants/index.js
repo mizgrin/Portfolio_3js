@@ -23,6 +23,10 @@ import {
     tripguide,
     threejs,
     myImage,
+    facebook,
+    instagram,
+    linkedin,
+    gitmedia
   } from "../assets";
   
   export const navLinks = [
@@ -48,6 +52,29 @@ import {
     },
   ];
   
+  const socialLinks = [
+    {
+      name: "Facebook",
+      icon: facebook,
+      link:'https://www.facebook.com/shrestha.mijan/'
+    },
+    {
+      name: "Linkedin",
+      icon: linkedin,
+      link:'https://www.linkedin.com/in/mijan-shrestha-412aba12a/',
+    },
+    {
+      name: "Instagram",
+      icon: instagram,
+      link:'https://www.instagram.com/mizansth_grinosaurus/?hl=en',
+    },
+    {
+      name: "Github",
+      icon: gitmedia,
+      link:'https://github.com/mizgrin',
+    },
+  ]
+
   const services = [
     {
       title: "Website Designer",
@@ -280,4 +307,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, myImage };
+  export { services, socialLinks, technologies, experiences, testimonials, projects, myImage };

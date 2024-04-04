@@ -2,7 +2,8 @@
 import React, {useEffect,useState} from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles'
-import { navLinks } from '../constants'
+import { navLinks } from '../constants';
+import { socialLinks } from '../constants';
 import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
@@ -73,6 +74,18 @@ const Navbar = () => {
                 </ul>
               </div>
       </div>
+      <ul className="fixed right-0 flex flex-col gap-10 p-5 bg-tertiary top-7 innerShadow ">
+        <span className='absolute left-[-110px] w-48 transform rotate-[-90deg] top-[100px] text-white bg-tertiary text-center text-[16px] z-10 innerShadow'>Social Media</span>
+            {socialLinks.map((link, index) => (
+                <li key={index} className="cursor-pointer">
+                    <a href={link.url} target="_blank" rel="noreferrer" className='w-[24px] h-[24px] block'>
+                        <img src={link.icon} alt="" />
+                    </a>
+                </li>
+            )
+
+            )}
+      </ul>
     </nav>
   )
 }

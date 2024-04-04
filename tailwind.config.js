@@ -20,6 +20,9 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      innerShadow:{
+        boxShadow: 'inset 3px -2px 4px 3px #ffffff42',
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },

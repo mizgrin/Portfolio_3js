@@ -31,7 +31,7 @@ const About = () => {
     <div id='about'>
       <motion.div variants={textVariant()}>
           <p className={`{styles.sectionSubText} `}>Overview</p>  
-          <h2 className={styles.sectionHeadText} style={{textShadow:'#fffcff85 3px 5px 4px'}}>Introduction</h2>
+          <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
       <motion.div className="flex sm:flex-row flex-col-reverse " variants={fadeIn('','', 0.1, 1)}>
       <div  className='sm:w-8/12 w-full'>

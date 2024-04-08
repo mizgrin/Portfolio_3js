@@ -26,7 +26,9 @@ import {
     facebook,
     instagram,
     linkedin,
-    gitmedia
+  gitmedia,
+  phone,
+    email
   } from "../assets";
   
   export const navLinks = [
@@ -52,26 +54,39 @@ import {
     },
   ];
   
+const contactDetails = [
+  {
+    title: "Email",
+    icon: email,
+    value : "msmizans@gmail.com"
+  },
+  {
+    title: 'Phone',
+    icon: phone,
+    value:'+977-9849791116'
+  }
+]
+  
   const socialLinks = [
     {
       name: "Facebook",
       icon: facebook,
-      link:'https://www.facebook.com/shrestha.mijan/'
+      url:'https://www.facebook.com/shrestha.mijan/'
     },
     {
       name: "Linkedin",
       icon: linkedin,
-      link:'https://www.linkedin.com/in/mijan-shrestha-412aba12a/',
+      url:'https://www.linkedin.com/in/mijan-shrestha-412aba12a/',
     },
     {
       name: "Instagram",
       icon: instagram,
-      link:'https://www.instagram.com/mizansth_grinosaurus/?hl=en',
+      url:'https://www.instagram.com/mizansth_grinosaurus/?hl=en',
     },
     {
       name: "Github",
       icon: gitmedia,
-      link:'https://github.com/mizgrin',
+      url:'https://github.com/mizgrin',
     },
   ]
 
@@ -307,4 +322,4 @@ import {
     },
   ];
   
-  export { services, socialLinks, technologies, experiences, testimonials, projects, myImage };
+  export { services, socialLinks, technologies, experiences, testimonials, contactDetails, projects, myImage };

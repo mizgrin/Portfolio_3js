@@ -35,6 +35,9 @@ import facebook from "./socialmedia/facebook.png";
 import instagram from "./socialmedia/instagram.png";
 import linkedin from "./socialmedia/linkedin.png";
 import gitmedia from "./socialmedia/github.png";
+import email from "./socialmedia/gmail.png";
+import phone from "./socialmedia/phone.png";
+
 
 export {
   logo,
@@ -68,5 +71,7 @@ export {
   facebook,
   instagram,
   linkedin,
-  gitmedia
+  gitmedia,
+  email,
+  phone
 };

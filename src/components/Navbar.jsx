@@ -103,7 +103,7 @@ const Navbar = () => {
           {
             setHovered (!socialMedia)
           }} className=
-            'border-primary border-2  absolute left-[-125px] w-48 transform rotate-[-90deg] top-[100px] p-3 border-1 border-[#ddd] text-white bg-tertiary text-center text-[16px] z-10 transition-all ease-linear innerShadow cursor-pointer hover:opacity-70' title='Social media click here' style={{ boxShadow: 'inset 3px -2px 4px 3px #ffffff42' }}>
+            'border-primary border-2  absolute left-[-125px] w-48 transform rotate-[-90deg] top-[100px] p-3 border-1 border-[#fff] text-white bg-tertiary text-center text-[16px] z-10 transition-all ease-linear innerShadow cursor-pointer hover:opacity-70' title='Social media click here' style={{ boxShadow: 'inset 3px -2px 4px 3px #ffffff42' }}>
             Social Media
           </span>
             {socialLinks.map((link, index) => (

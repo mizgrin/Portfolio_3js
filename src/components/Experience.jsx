@@ -16,7 +16,7 @@ const ExperienceCard = ({experience}) => (
         date={experience.date}
         iconstyle={{ background: experience.iconBg }}
         icon={
-          <div className='flex justify-center items-center w-full h-full bg-white overflow-hidden'>
+          <div className='flex justify-center items-center w-full h-full rounded-full bg-white overflow-hidden'>
             <img src={experience.icon} alt={experience.company_name} className='w-[60%] h-[60%] object-contain' />
           </div>
         }
@@ -44,7 +44,7 @@ const Experience = () => {
     <div id='work' >
         <motion.div variants={textVariant()}>
             <p className={`{styles.sectionSubText} `}>What i have done so far</p>  
-            <h2 className={styles.sectionHeadText} style={{textShadow:'#fffcff85 3px 5px 4px'}}>My Work experience</h2>
+            <h2 className={styles.sectionHeadText} >My Work experience</h2>
       </motion.div> 
       <div className="mt-20 flex flex-col">
           <VerticalTimeline>

@@ -23,6 +23,12 @@ import {
     tripguide,
     threejs,
     myImage,
+    facebook,
+    instagram,
+    linkedin,
+  gitmedia,
+  phone,
+    email
   } from "../assets";
   
   export const navLinks = [
@@ -48,6 +54,42 @@ import {
     },
   ];
   
+const contactDetails = [
+  {
+    title: "Email",
+    icon: email,
+    value : "msmizans@gmail.com"
+  },
+  {
+    title: 'Phone',
+    icon: phone,
+    value:'+977-9849791116'
+  }
+]
+  
+  const socialLinks = [
+    {
+      name: "Facebook",
+      icon: facebook,
+      url:'https://www.facebook.com/shrestha.mijan/'
+    },
+    {
+      name: "Linkedin",
+      icon: linkedin,
+      url:'https://www.linkedin.com/in/mijan-shrestha-412aba12a/',
+    },
+    {
+      name: "Instagram",
+      icon: instagram,
+      url:'https://www.instagram.com/mizansth_grinosaurus/?hl=en',
+    },
+    {
+      name: "Github",
+      icon: gitmedia,
+      url:'https://github.com/mizgrin',
+    },
+  ]
+
   const services = [
     {
       title: "Website Designer",
@@ -280,4 +322,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, myImage };
+  export { services, socialLinks, technologies, experiences, testimonials, contactDetails, projects, myImage };

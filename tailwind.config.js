@@ -22,6 +22,9 @@ module.exports = {
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
+        innerShadow: 'inset 3px -2px 4px 3px #ffffff42',
+        // Define your custom inner shadow here
+        innerShadow: 'inset 3px -2px 4px 3px #ffffff42',
       },
       screens: {
         xs: "450px",
@@ -29,10 +32,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
-      
     },
   },
   plugins: [
-    require('tailwindcss-textshadow')
+    require('tailwindcss-textshadow'),
   ],
 };

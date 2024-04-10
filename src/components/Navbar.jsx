@@ -15,7 +15,7 @@ const Navbar = () => {
   
     <nav
       className={
-        `${styles.paddingX} flex  justify-between items-center`
+        `${styles.paddingX} flex sm:flex-wrap  justify-between items-center`
       }
     >
       <Link to = "/" className='flex items-center gap-2' onClick={()=>{
@@ -33,7 +33,7 @@ const Navbar = () => {
                   <img src={contact.icon} alt={contact.title } />
                 </div>
                 <div className="contact-value text-white">
-                <Link to={contact.title === "Email" ? 'mailto:' + contact.value : 'tel:' + contact.value} className='m-0' target='_blank'>
+                <Link to={contact.title === "Email" ? 'mailto:' + contact.value : 'tel:' + contact.value} className='m-0 sm:text-[12px]' target='_blank'>
                   {contact.value}
                 </Link>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
           </ul>
         </div>
    
-      <div className='sm:hidden flex flex-1 justify-end item-center'>
+      <div className='sm:hidden flex flex-1 justify-end item-center absolute top-[25px] right-[35px]]'>
             <img 
               src={menuToggle ? close : menu}
               alt="menu" 

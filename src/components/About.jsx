@@ -44,7 +44,7 @@ const About = () => {
              with a dedicated focus on expanding my skill set within these frameworks.<strong className='text-white'> Collaborative team player</strong>  dedicated to delivering innovative and impactful digital solutions
           </p>
       </div>
-      <div className="float-end translate-y-0 absolute right-0 top-[-150px] sm:w-4/12 w-full" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
+      <div className="float-end translate-y-0 sm:absolute right-0 top-[-150px] sm:w-4/12 w-full" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
           <img src={myImage} alt="" className='object-cover' />
         </div>
 

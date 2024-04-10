@@ -8,7 +8,7 @@ const Hero = () => {
     window.open('https://drive.google.com/file/d/1Mh8EENQYj4FQgS1xpUaRXrYDvOS9ZiZG/view?usp=sharing', '_blank');
   }
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full h-screen mx-auto sm:mt-[20px]'>
         <div className={` ${styles.paddingX} absolute inset-0 top-[120px] max-w-8xl mx-auto flex flex-row items-start gap-5 mb-12 z-10`}>
           <div className='flex flex-col justify-center items-center mt-5'>
             <div className="w-5 h-5 rounded-full bg-neon"></div>

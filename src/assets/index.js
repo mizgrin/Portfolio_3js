@@ -37,6 +37,7 @@ import linkedin from "./socialmedia/linkedin.png";
 import gitmedia from "./socialmedia/github.png";
 import email from "./socialmedia/gmail.png";
 import phone from "./socialmedia/phone.png";
+import construction from "./construction.gif";
 
 
 export {
@@ -73,5 +74,6 @@ export {
   linkedin,
   gitmedia,
   email,
-  phone
+  phone,
+  construction,
 };

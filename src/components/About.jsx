@@ -35,21 +35,25 @@ const About = () => {
       </motion.div>
       <motion.div className="flex sm:flex-row flex-col-reverse " variants={fadeIn('','', 0.1, 1)}>
       <div  className='sm:w-8/12 w-full'>
-          <p className='mt-4 text-secondary text-[17px] mx-w-3x; leading-[30px]'>
-          <strong className='text-white'>Experienced Frontend Web Developer </strong>and <strong className='text-white'> Fullstack WordPress Developer </strong> with a proven track record of delivering high-quality web solutions. 
-          <strong className='text-white'> Proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery) </strong>, with a keen eye for design and user experience. 
-          Skilled in translating design mockups into  <strong className='text-white'>responsive and interactive web interfaces </strong> using tools like Figma .
-           Additionally, adept at <strong className='text-white'> WordPress development </strong>, including theme customization, plugin integration, and backend functionality implementation. 
-            In my current role, I am actively  <strong className='text-white'> investing time and effort </strong> into deepening my proficiency in  <strong className='text-white'> React.js and tailwind css </strong>,
-             with a dedicated focus on expanding my skill set within these frameworks.<strong className='text-white'> Collaborative team player</strong>  dedicated to delivering innovative and impactful digital solutions
-          </p>
+      <p className='mt-4 text-secondary text-[17px] mx-w-3x; leading-[30px]'>
+        <strong className='text-white'>Welcome!</strong> I'm an 
+        <strong className='text-white'> Experienced Frontend Web Developer</strong> and 
+        <strong className='text-white'> Fullstack WordPress Developer </strong> passionate about crafting exceptional digital experiences. 
+        My expertise spans <strong className='text-white'>HTML, CSS (including SCSS), and JavaScript (including jQuery)</strong>, with a keen eye for detail and user-centric design. 
+        I specialize in transforming design concepts into 
+        <strong className='text-white'> responsive, interactive, and visually engaging web interfaces</strong> using cutting-edge tools like Figma. 
+        With a strong background in <strong className='text-white'>WordPress development</strong>, I deliver customized themes, seamless plugin integrations, and robust backend solutions. 
+        Currently, I'm honing my skills in <strong className='text-white'>React.js and Tailwind CSS</strong>, continuously expanding my toolkit to stay ahead of the curve.
+        A <strong className='text-white'>collaborative team player</strong>, I am dedicated to creating innovative and impactful digital solutions that drive success.
+    </p>
+
       </div>
       <div className="float-end translate-y-0 absolute right-0 top-[-150px] sm:w-4/12 w-full" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
           <img src={myImage} alt="" className='object-cover' />
         </div>
 
       </motion.div>
-      <div className='mt-20 flex flex-wrap gap-10 justify-around'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-start'>
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index}{...service}/>
           ))}

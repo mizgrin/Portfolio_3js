@@ -15,7 +15,7 @@ const Navbar = () => {
   
     <nav
       className={
-        `${styles.paddingX} flex  justify-between items-center`
+        `${styles.paddingX} flex justify-center lg:justify-between items-center flex-wrap`
       }
     >
       <Link to = "/" className='flex items-center gap-2' onClick={()=>{
@@ -25,14 +25,42 @@ const Navbar = () => {
           <img src= {logo}  alt="Logo" className='w-16 h-16 object-contain'/>
           <p className='text-[16px] text-neon font-medium cursor-pointer '>Mijan Shrestha <span className='sm:block hidden font-light text-white '>Frontend developer</span></p>
         </Link>
+        <div className='sm:hidden flex flex-1 justify-end item-center'>
+            <img 
+              src={menuToggle ? close : menu}
+              alt="menu" 
+              className='w-[28px] h-[28px] object-contain cursor-pointer '
+              onClick={() => setToggle(!menuToggle)} />
+              <div className=
+              {`
+              ${!menuToggle ? "hidden" : "flex"} 
+              p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[200px] z-20 rounded-xl`}>
+                <ul className='list-none flex justify-end items-start flex-col gap-4'>
+                    {navLinks.map((link)=>(
+                      <li key={link.id} className={` ${ 
+                        active === link.title
+                      ? "text-neon"
+                      :"text-white"
+                      } 
+                        hover:text-neon text-[16px] font-medium cursor-pointer`}
+                        onClick={()=> {
+                          setToggle(!menuToggle)
+                          setActive(link.title)
+                          }}>
+                        <a href={`#${link.id}`}>{link.title}</a>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+      </div>
         <div className="right-nav-wrap">
-            <ul className='flex justify-end gap-5  mb-5'>
+            <ul className='flex justify-end gap-5  mb-2 lg:mb-5 flex-wrap'>
             {contactDetails.map(( contact, index) => (
               <li key={contact.title} className='contact__detail flex items-center gap-2' title={contact.title }>
                 <div className="icon-holder w-[25px] h-[25px]">
                   <img src={contact.icon} alt={contact.title } />
                 </div>
-                <div className="contact-value text-white">
+                <div className="contact-value text-white text-xs lg-text-sm">
                 <Link to={contact.title === "Email" ? 'mailto:' + contact.value : 'tel:' + contact.value} className='m-0' target='_blank'>
                   {contact.value}
                 </Link>
@@ -67,34 +95,7 @@ const Navbar = () => {
           </ul>
         </div>
    
-      <div className='sm:hidden flex flex-1 justify-end item-center'>
-            <img 
-              src={menuToggle ? close : menu}
-              alt="menu" 
-              className='w-[28px] h-[28px] object-contain cursor-pointer '
-              onClick={() => setToggle(!menuToggle)} />
-              <div className=
-              {`
-              ${!menuToggle ? "hidden" : "flex"} 
-              p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[200px] z-20 rounded-xl`}>
-                <ul className='list-none flex justify-end items-start flex-col gap-4'>
-                    {navLinks.map((link)=>(
-                      <li key={link.id} className={` ${ 
-                        active === link.title
-                      ? "text-neon"
-                      :"text-white"
-                      } 
-                        hover:text-neon text-[16px] font-medium cursor-pointer`}
-                        onClick={()=> {
-                          setToggle(!menuToggle)
-                          setActive(link.title)
-                          }}>
-                        <a href={`#${link.id}`}>{link.title}</a>
-                      </li>
-                    ))}
-                </ul>
-              </div>
-      </div>
+     
         <ul className={` 
         ${socialMedia === false
             ? "right-[-55px]" : "right-0" } fixed flex flex-col gap-10 p-5 transition-all ease-linear bg-tertiary top-[100px]`}

@@ -27,9 +27,9 @@ const ComingSoon = () => {
 
     return (
         <div className='w-96 mx-auto'>
-            <h2 className='text-center text-white text-[25px]'>Under construction: More content will be added shortly. Thanks for your patience!</h2>
+            <h2 className='text-center text-white text-[25px] mb-5 bold'>Under construction: More content will be added shortly. Thanks for your patience!</h2>
                 <div className="image-holder">
-                    <img src={construction} className='filter invert m-auto' alt="gif" />
+                    <img src={construction} className='rounded-3xl m-auto' alt="gif" />
                 </div>
             </div>
     );

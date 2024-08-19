@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import photoshop from "./tech/photoshop.png";
+import wordpress from "./tech/wordpress.png";
+import php from './tech/php.png';
 
 import fintech from "./company/fintech-2.png";
 import school from "./company/school.png";
@@ -62,6 +65,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  photoshop,
+  wordpress,
+  php,
   fintech,
   school,
   inctic,

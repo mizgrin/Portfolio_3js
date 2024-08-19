@@ -27,19 +27,10 @@ const ComingSoon = () => {
 
     return (
         <div className='w-96 mx-auto'>
-            <h2 className='text-center text-white text-[25px]'>Below this part,  the page is </h2>
+            <h2 className='text-center text-white text-[25px]'>Under construction: More content will be added shortly. Thanks for your patience!</h2>
                 <div className="image-holder">
                     <img src={construction} className='filter invert m-auto' alt="gif" />
                 </div>
-                    <h2
-                        className={`text-center overflow-hidden transition-width font-bold text-[30px] text-[#252525] duration-1000 `}
-                    >
-                        
-                        <div className='block whitespace-nowrap'>
-                        
-                        <span className='whitespace-nowrap text-[#fff] '>To be continued ...</span>
-                        </div>
-                    </h2>
             </div>
     );
 };

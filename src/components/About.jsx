@@ -34,7 +34,7 @@ const About = () => {
           <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
       <motion.div className="flex sm:flex-row flex-col-reverse " variants={fadeIn('','', 0.1, 1)}>
-      <div  className='sm:w-8/12 w-full'>
+      <div  className='lg:w-8/12 w-full'>
       <p className='mt-4 text-secondary text-[17px] mx-w-3x; leading-[30px]'>
         <strong className='text-white'>Welcome!</strong> I'm an 
         <strong className='text-white'> Experienced Frontend Web Developer</strong> and 
@@ -48,7 +48,7 @@ const About = () => {
     </p>
 
       </div>
-      <div className="float-end translate-y-0 absolute right-0 top-[-150px] sm:w-4/12 w-full" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
+      <div className="float-end translate-y-0 lg:absolute static right-0 top-[-150px] lg:w-4/12 w-full mb-5" style={{ filter: "drop-shadow(7px -2px 6px #a9f7f766)" }}>
           <img src={myImage} alt="" className='object-cover' />
         </div>
 

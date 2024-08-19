@@ -15,8 +15,11 @@ import {
     git,
     figma,
     docker,
+    photoshop,
+    wordpress,
     inctic,
     fintech,
+    php,
     school,
     carrent,
     jobit,
@@ -123,32 +126,20 @@ const contactDetails = [
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Wordpress",
+      icon: wordpress,
     },
     {
-      name: "React JS",
+      name: "PHP",
+      icon: php,
+    },
+    {
+      name: "React JS (Intermediate)",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
+      name: "Tailwind CSS (Intermediate)",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -159,8 +150,8 @@ const contactDetails = [
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name : 'Graphic design',
+      icon : photoshop,
     },
   ];
   

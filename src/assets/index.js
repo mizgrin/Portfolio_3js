@@ -35,7 +35,7 @@ import waterasia from "./projects/waterasia.png";
 import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
 import bizpro from "./projects/businesspro.png";
-import news from "./projects/newsportal.png";
+// import news from "./projects/newsportal.png";
 import restaurant from "./projects/food.png";
 import myImage from "./mizan12.png"
 

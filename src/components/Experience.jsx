@@ -42,7 +42,7 @@ const Experience = () => {
   const outPutExperiences = [...experiences].reverse()
   return (
     <div id='work' >
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant()} className='text-center'>
             <p className={`{styles.sectionSubText} `}>What i have done so far</p>  
             <h2 className={styles.sectionHeadText} >My Work experience</h2>
       </motion.div> 

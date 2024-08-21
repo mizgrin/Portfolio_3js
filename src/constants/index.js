@@ -20,11 +20,12 @@ import {
     inctic,
     fintech,
     php,
+    jquery,
     school,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    brewingHouse,
+    waterasia,
+    balthali,
+    bizpro,
     myImage,
     facebook,
     instagram,
@@ -124,6 +125,10 @@ const contactDetails = [
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "JQuery",
+      icon: jquery,
     },
     {
       name: "Wordpress",
@@ -249,58 +254,62 @@ const contactDetails = [
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Water asia international",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The website for Water Asia International is designed for an international non-governmental organization. The website may also include resources, reports, and contact information to engage with stakeholders and the community.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Wordpress",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: waterasia,
+      source_code_link: "https://waterasiainternational.com.np/",
     },
     {
-      name: "Job IT",
+      name: "The brewing house",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Brewing House website, built on WordPress with WooCommerce, SCSS, HTML5, and jQuery, is an e-commerce platform for coffee and barista products. It features a modern, user-friendly design with responsive navigation for an optimal shopping experience across all devices.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Wordpress",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Woocommerce",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: brewingHouse,
+      source_code_link: "https://thebrewinghouse.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Businesspro",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "BizPro's website is a descriptive platform for their business management system, featuring a clean, professional design with intuitive navigation.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Wordpress",
           color: "green-text-gradient",
         },
         {
@@ -308,9 +317,50 @@ const contactDetails = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bizpro,
+      source_code_link: "http://bizpro.com.np/",
+    },
+    {
+      name: "Balthali resort",
+      description:
+        "Balthali's website is a tourism platform showcasing the serene Balthali village resort, highlighting its natural beauty, accommodations, and activities, with a focus on providing an immersive visitor experience.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: balthali,
+      source_code_link: "https://www.balthali.com/",
     },
   ];
   
+  // const themesDesign = [
+  //   {
+  //     name: "Food and Restaurant",
+  //     image: restaurant,
+  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+
+  //   },
+  //   {
+  //     name: "News portal",
+  //     image: news,
+  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+
+  //   },
+  //   {
+  //     name: "Food and Restaurant",
+  //     image: restaurant,
+  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+
+  //   }
+  // ]
   export { services, socialLinks, technologies, experiences, testimonials, contactDetails, projects, myImage };

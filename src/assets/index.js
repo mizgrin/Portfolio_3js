@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,15 +24,17 @@ import threejs from "./tech/threejs.svg";
 import photoshop from "./tech/photoshop.png";
 import wordpress from "./tech/wordpress.png";
 import php from './tech/php.png';
+import jquery from './tech/jquery.png';
 
 import fintech from "./company/fintech-2.png";
 import school from "./company/school.png";
 import inctic from "./company/incticlabs_logo.jpeg";
 // import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import waterasia from "./projects/waterasia.png";
+import brewingHouse from "./projects/brewingHouse.png";
+import balthali from "./projects/balthali.png";
+import bizpro from "./projects/Businesspro.png";
 import myImage from "./mizan12.png"
 
 import facebook from "./socialmedia/facebook.png";
@@ -50,6 +53,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -68,12 +72,14 @@ export {
   photoshop,
   wordpress,
   php,
+  jquery,
   fintech,
   school,
   inctic,
-  carrent,
-  jobit,
-  tripguide,
+  brewingHouse,
+  waterasia,
+  balthali,
+  bizpro,
   myImage,
   facebook,
   instagram,

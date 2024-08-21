@@ -34,7 +34,9 @@ import inctic from "./company/incticlabs_logo.jpeg";
 import waterasia from "./projects/waterasia.png";
 import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
-import bizpro from "./projects/Businesspro.png";
+import bizpro from "./projects/businesspro.png";
+import restaurant from "./projects/food.png";
+import news from "./projects/newsportal.png";
 import myImage from "./mizan12.png"
 
 import facebook from "./socialmedia/facebook.png";
@@ -80,6 +82,8 @@ export {
   waterasia,
   balthali,
   bizpro,
+  restaurant,
+  news,
   myImage,
   facebook,
   instagram,

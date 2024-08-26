@@ -109,7 +109,7 @@ const Navbar = () => {
           </span>
             {socialLinks.map((link, index) => (
                 <li key={index} className="cursor-pointer">
-                    <Link to={link.url} target="_blank" rel="noreferrer" className='w-[24px] h-[24px] block hover:rotate-45 transition-all ease-linear'>
+                    <Link to={link.url} target="_blank" rel="noreferrer" title={link.name} className='w-[24px] h-[24px] block hover:rotate-45 transition-all ease-linear'>
                         <img src={link.icon} alt="" />
                     </Link>
                 </li>

@@ -5,6 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import link from "./link.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,11 +36,18 @@ import waterasia from "./projects/waterasia.png";
 import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
 import bizpro from "./projects/businesspro.png";
-// import news from "./projects/newsportal.png";
+import aptioswarcade from './projects/aptioswarcade.png';
+import news from "./projects/newsportal.png";
+import dashboard from "./projects/dashboard.png";
 import restaurant from "./projects/food.png";
+import ecommerce from './projects/clothesecommerce.png';
+import ingo from './projects/internationalorganization.png';
+import chairstation from './projects/chairecommerce.png';
+import property from './projects/property.png';
 import myImage from "./mizan12.png"
-
+import hospital from './projects/hospital.png';
 import facebook from "./socialmedia/facebook.png";
+import dribble from './socialmedia/dribble.png';
 import instagram from "./socialmedia/instagram.png";
 import linkedin from "./socialmedia/linkedin.png";
 import gitmedia from "./socialmedia/github.png";
@@ -82,11 +90,19 @@ export {
   waterasia,
   balthali,
   bizpro,
+  aptioswarcade,
   restaurant,
+  hospital,
+  dashboard,
   news,
+  ecommerce,
+  ingo,
+  chairstation,
+  property,
   myImage,
   facebook,
   instagram,
+  dribble,
   linkedin,
   gitmedia,
   email,

@@ -26,13 +26,24 @@ import {
     waterasia,
     balthali,
     bizpro,
+    aptioswarcade,
+    restaurant,
+    hospital,
+    dashboard,
+    news,
+    ecommerce,
+    ingo,
+    chairstation,
     myImage,
     facebook,
     instagram,
     linkedin,
+    dribble,
   gitmedia,
   phone,
-    email
+    email,
+    property,
+
   } from "../assets";
   
   export const navLinks = [
@@ -72,15 +83,21 @@ const contactDetails = [
 ]
   
   const socialLinks = [
-    {
-      name: "Facebook",
-      icon: facebook,
-      url:'https://www.facebook.com/shrestha.mijan/'
-    },
+   
     {
       name: "Linkedin",
       icon: linkedin,
       url:'https://www.linkedin.com/in/mijan-shrestha-412aba12a/',
+    },
+    {
+      name: "Dribbble",
+      icon: dribble,
+      url:'https://dribbble.com/MijanShrestha',
+    },
+    {
+      name: "Facebook",
+      icon: facebook,
+      url:'https://www.facebook.com/shrestha.mijan/'
     },
     {
       name: "Instagram",
@@ -92,6 +109,7 @@ const contactDetails = [
       icon: gitmedia,
       url:'https://github.com/mizgrin',
     },
+ 
   ]
 
   const services = [
@@ -341,26 +359,70 @@ const contactDetails = [
       image: balthali,
       source_code_link: "https://www.balthali.com/",
     },
+    {
+      name: "Aptos warcade",
+      description:
+        "Aptos Warcade is a blockchain-based gaming platform where players can compete in games and earn cryptocurrency rewards.",
+      tags: [
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: aptioswarcade,
+      source_code_link: "https://aptoswarcade.com/",
+    },
+    
   ];
   
-  // const themesDesign = [
-  //   {
-  //     name: "Food and Restaurant",
-  //     image: restaurant,
-  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+  const themesDesign = [
+    {
+      name: "Food and Restaurant",
+      image: restaurant,      
 
-  //   },
-  //   {
-  //     name: "News portal",
-  //     image: news,
-  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+    },
+    {
+      name: "News portal",
+      image: news,      
 
-  //   },
-  //   {
-  //     name: "Food and Restaurant",
-  //     image: restaurant,
-  //     description:`I designed and developed a visually appealing and user-friendly website for a high-end restaurant, aimed at enhancing its online presence and engaging potential customers. The site was crafted to reflect the restaurant's ambiance and culinary expertise, ensuring an immersive experience for visitors.`
+    },
+    {
+      name: "Hospital or clinic",
+      image: hospital,      
 
-  //   }
-  // ]
-  export { services, socialLinks, technologies, experiences, testimonials, contactDetails, projects, myImage };
+    },
+    {
+      name: "E-learning platform dashboard",
+      image: dashboard,      
+
+    },
+    {
+      name: "E-commerce platform for dresses",
+      image: ecommerce,      
+
+    },
+    {
+      name: "E-commerce for furnitures",
+      image: chairstation,      
+
+    },
+    {
+      name: "Company website",
+      image: ingo,      
+
+    },
+    {
+      name: "Properties buy and sale",
+      image: property,      
+
+    }
+  ]
+  export { services, socialLinks, technologies, experiences, testimonials, contactDetails, projects, myImage,themesDesign };

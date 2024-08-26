@@ -18,41 +18,44 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full mb-10"
         >
-          <Link to={source_code_link} target='_blank'>
+          <Link to={source_code_link} target='_blank' className='h-full flex flex-col'>
           <div className="relative w-full h-[230px]">
             <img 
               src={image} 
               alt={name}
               className="w-full h-full object-cover object-top rounded-2xl"
             />
-    <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-      <div onClick={() => window.open(source_code_link, "_blank")}
-      className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer shadow-xl'>
-        <img src={link} alt={name} className="w-1/2 h-1/2 object-contain"/>
-      </div>
-    </div>
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div onClick={() => window.open(source_code_link, "_blank")}
+                className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer shadow-xl'>
+                <img src={link} alt={name} className="w-1/2 h-1/2 object-contain"/>
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 flex flex-col justify-between">
 
+        
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">
+              {name}
+              </h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          </div>
 
-      <div className="mt-5">
-        <h3 className="text-white font-bold text-[24px]">
-           {name}
-           </h3>
-        <p className="mt-2 text-secondary text-[14px]">{description}</p>
-      </div>
-
-      <div className="mt-4 flex flex-wrap gap-2">
-        {tags.map((tag) => (
-          <p
-            key={`${name}-${tag.name}`}
-            className={`text-[14px] ${tag.color}`}
-          >
-            #{tag.name}
-          </p>
-        ))}
-      </div>
-    </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+          </div>
+        
     </Link>
   </Tilt>
 
@@ -64,7 +67,7 @@ const Works = () => {
   return (
       <>
         <motion.div variants={textVariant()} className='text-center'>
-            <p className={`{styles.sectionSubText} `}>My works</p>  
+            <p className={`${styles.sectionSubText}`}>My works</p>  
             <h2 className={styles.sectionHeadText} >Projects.</h2>
       </motion.div> 
       <div className="w-full text-center">
@@ -74,11 +77,13 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap justify-center gap-7">
+      <div className="mt-20 mb-10 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        <strong className='text-center w-full position-absolute bottom-0 text-white text-[20px] font-bold'>And Many More...</strong>
       </div>
+      
       </>
   )
 }

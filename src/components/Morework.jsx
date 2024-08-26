@@ -3,10 +3,11 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
+import { themesDesign } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import Lightbox from './lightbox'; // Import the new Lightbox component
 
-const ThemeCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ThemeCard = ({ index, name, image, }) => {
   const [isLightboxOpen, setLightboxOpen] = useState(false);
 
   const openLightbox = () => setLightboxOpen(true);
@@ -20,7 +21,7 @@ const ThemeCard = ({ index, name, description, tags, image, source_code_link }) 
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl w-[360px] w-full h-full mb-10"
+        className="bg-tertiary p-5 rounded-2xl w-[360px] h-full mb-10"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -44,7 +45,7 @@ const Morework = () => {
   return (
     <>
       <motion.div variants={textVariant()} className='text-center'>
-        <p className={`${styles.sectionSubText} `}>More glimpse of theme designs</p>  
+        <p className={`${styles.sectionSubText}`}>More glimpse of theme designs</p>  
         <h2 className={styles.sectionHeadText} >Theme Designs</h2>
       </motion.div> 
       <div className="w-full text-center">

@@ -37,7 +37,7 @@ import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
 import bizpro from "./projects/businesspro.png";
 import aptioswarcade from './projects/aptioswarcade.png';
-import news from "./projects/newsportal.png";
+import news from "./projects/newsweb.png";
 import dashboard from "./projects/dashboard.png";
 import restaurant from "./projects/food.png";
 import ecommerce from './projects/clothesecommerce.png';

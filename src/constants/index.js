@@ -26,6 +26,7 @@ import {
     waterasia,
     balthali,
     bizpro,
+    empteam,
     aptioswarcade,
     restaurant,
     hospital,
@@ -272,6 +273,31 @@ const contactDetails = [
   
   const projects = [
     {
+      name: "Emp team job portal",
+      description:
+        "EMP Team is a UAE-based company that provides professional employer organization (PEO) services, helping businesses manage HR, payroll, and employee benefits. They specialize in simplifying administrative tasks, ensuring compliance with local labor laws, and offering tailored solutions for workforce management across the Middle East region",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Jquery/JS",
+          color: "green-text-gradient",
+        },
+      ],
+      image: empteam,
+      source_code_link: "https://empteam.ae/",
+    },
+    {
       name: "Water asia international",
       description:
         "The website for Water Asia International is designed for an international non-governmental organization. The website may also include resources, reports, and contact information to engage with stakeholders and the community.",
@@ -338,6 +364,7 @@ const contactDetails = [
       image: bizpro,
       source_code_link: "http://bizpro.com.np/",
     },
+   
     {
       name: "Balthali resort",
       description:

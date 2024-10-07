@@ -67,8 +67,8 @@ const Works = () => {
   return (
       <>
         <motion.div variants={textVariant()} className='text-center'>
-            <p className={`${styles.sectionSubText}`}>My works</p>  
-            <h2 className={styles.sectionHeadText} >Projects.</h2>
+            <p className={`${styles.sectionSubText}`}>Projects that I have worked on</p>  
+            <h2 className={styles.sectionHeadText} >My works </h2>
       </motion.div> 
       <div className="w-full text-center">
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]">

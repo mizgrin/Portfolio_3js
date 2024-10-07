@@ -37,6 +37,7 @@ import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
 import bizpro from "./projects/businesspro.png";
 import empteam from "./projects/empteam.png";
+import bpsmriti from './projects/bpsmriti.png';
 import aptioswarcade from './projects/aptioswarcade.png';
 import news from "./projects/newsweb.png";
 import dashboard from "./projects/dashboard.png";
@@ -91,6 +92,7 @@ export {
   waterasia,
   balthali,
   bizpro,
+  bpsmriti,
   empteam,
   aptioswarcade,
   restaurant,

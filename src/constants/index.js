@@ -26,6 +26,7 @@ import {
     waterasia,
     balthali,
     bizpro,
+    bpsmriti,
     empteam,
     aptioswarcade,
     restaurant,
@@ -296,6 +297,31 @@ const contactDetails = [
       ],
       image: empteam,
       source_code_link: "https://empteam.ae/",
+    },
+    {
+      name: "Bp smriti hospital",
+      description:
+        "B.P. Smriti  Hospital is a 100 beded multi-speciality hospital located at Shree Kanti Marg, Tilingtar, beside Basundhara Police Station, Kathmandu Metroplitan City-3.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Jquery/JS",
+          color: "green-text-gradient",
+        },
+      ],
+      image: bpsmriti,
+      source_code_link: "https://bpsmritihospital.com.np/",
     },
     {
       name: "Water asia international",

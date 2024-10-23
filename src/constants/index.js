@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    uiux,
     javascript,
     typescript,
     html,
@@ -118,6 +119,10 @@ const contactDetails = [
     {
       title: "Website Designer",
       icon: web,
+    },
+    {
+      title: "UI/UX Designer",
+      icon: uiux,
     },
     {
       title: "Full Stack Wordpress developer",

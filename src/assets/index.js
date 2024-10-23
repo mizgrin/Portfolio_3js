@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import uiux from './uiux.png';
 import github from "./github.png";
 import link from "./link.png";
 
@@ -64,6 +65,7 @@ export {
   creator,
   mobile,
   web,
+  uiux,
   github,
   link,
   menu,

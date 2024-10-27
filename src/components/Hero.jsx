@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className= { `text-white {${styles.heroHeadText}`}>Namaste , I am <span className={`sm:text-[45px] text-[24px] text-neon  font-bold`}>Mijan Shrestha</span></h1>
-            <p className={`${ styles.heroSubText} text-white mb-3 `}> As a website developer, I specialize in creating engaging sites.</p>
+            <p className={`${ styles.heroSubText} text-white mb-3 `}> As a website developer and designer, I specialize in creating engaging sites.</p>
             <button
               onClick={downloadCV}
               className="bg-transparent border border-neon hover:border-1 hover:opacity-70 transition-all ease-linear text-white font-bold py-2 px-4 rounded"

@@ -23,7 +23,7 @@ const Navbar = () => {
           window.scrollTo(0,0)
       }}>
           <img src= {logo}  alt="Logo" className='w-16 h-16 object-contain'/>
-          <p className='text-[16px] text-neon font-medium cursor-pointer '>Mijan Shrestha <span className='sm:block hidden font-light text-white '>Frontend developer</span></p>
+          <p className='text-[16px] text-neon font-medium cursor-pointer '>Mijan Shrestha <span className='sm:block hidden font-light text-white '>Website developer and UIUX designer </span></p>
         </Link>
         <div className='sm:hidden flex flex-1 justify-end item-center'>
             <img 

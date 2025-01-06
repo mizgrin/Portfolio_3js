@@ -26,6 +26,7 @@ import {
     brewingHouse,
     waterasia,
     balthali,
+    peoplescollege,
     bizpro,
     bpsmriti,
     empteam,
@@ -68,7 +69,7 @@ import {
     {
       id: "contact",
       title: "Contact",
-      disabled:'true'
+      disabled:'false'
     },
   ];
   
@@ -328,27 +329,7 @@ const contactDetails = [
       image: bpsmriti,
       source_code_link: "https://bpsmritihospital.com.np/",
     },
-    {
-      name: "Water asia international",
-      description:
-        "The website for Water Asia International is designed for an international non-governmental organization. The website may also include resources, reports, and contact information to engage with stakeholders and the community.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Wordpress",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SCSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: waterasia,
-      source_code_link: "https://waterasiainternational.com.np/",
-    },
+  
     {
       name: "The brewing house",
       description:
@@ -374,6 +355,53 @@ const contactDetails = [
       image: brewingHouse,
       source_code_link: "https://thebrewinghouse.com/",
     },
+     
+    {
+      name: "Peoples college",
+      description:
+        "Peoples Campus is an academic institution located in Nepal, dedicated to providing quality education in various fields. The website serves as a hub for students, faculty, and prospective applicants, offering information about academic programs, admissions, faculty, and campus life. It features details about the institution's mission, vision, and achievements, along with updates on events and notices. The site also provides resources for students and stakeholders to stay connected and informed.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JS/Jquery",
+          color: "green-text-gradient",
+        },
+      ],
+      image: peoplescollege,
+      source_code_link: "https://peoplescampus.edu.np/",
+    },
+    {
+      name: "Water asia international",
+      description:
+        "The website for Water Asia International is designed for an international non-governmental organization. The website may also include resources, reports, and contact information to engage with stakeholders and the community.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: waterasia,
+      source_code_link: "https://waterasiainternational.com.np/",
+    },
     {
       name: "Businesspro",
       description:
@@ -395,28 +423,7 @@ const contactDetails = [
       image: bizpro,
       source_code_link: "http://bizpro.com.np/",
     },
-   
-    {
-      name: "Balthali resort",
-      description:
-        "Balthali's website is a tourism platform showcasing the serene Balthali village resort, highlighting its natural beauty, accommodations, and activities, with a focus on providing an immersive visitor experience.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Wordpress",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: balthali,
-      source_code_link: "https://www.balthali.com/",
-    },
+  
     {
       name: "Aptos warcade",
       description:

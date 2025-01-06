@@ -36,6 +36,7 @@ import inctic from "./company/incticlabs_logo.jpeg";
 import waterasia from "./projects/waterasia.png";
 import brewingHouse from "./projects/brewingHouse.png";
 import balthali from "./projects/balthali.png";
+import peoplescollege from "./projects/peoplescollege.png";
 import bizpro from "./projects/businesspro.png";
 import empteam from "./projects/empteam.png";
 import bpsmriti from './projects/bpsmriti.png';
@@ -93,6 +94,7 @@ export {
   brewingHouse,
   waterasia,
   balthali,
+  peoplescollege,
   bizpro,
   bpsmriti,
   empteam,

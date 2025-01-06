@@ -20,8 +20,8 @@ const App = () =>{
         
           {/*  
           <Feedbacks/>
+         <Contact/>
           <div className="relative z-0">
-            <Contact/>
             <StarsCanvas/>
           </div> */}
           <ComingSoon/>

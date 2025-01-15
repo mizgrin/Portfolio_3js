@@ -9,6 +9,7 @@ import Morework from './Morework';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import ComingSoon from './ComingSoon';
+import Footer from './Footer';
 
 
 export {
@@ -25,5 +26,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  ComingSoon
+  ComingSoon,
+  Footer,
 }

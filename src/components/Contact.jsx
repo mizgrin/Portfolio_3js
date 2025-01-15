@@ -5,7 +5,9 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-
+// template_re5c2lc
+// service_m70hb37 
+// Jltm1_vgQ6GOdlisS
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -15,18 +17,59 @@ const Contact = () => {
   })
   const[loading, setLoading] = useState(false);
   const handleChange = (e) => {
-    
+    const {target} = e;
+    const {name, value} = target;
+    setForm({
+      ...form,
+      [name] : value
+    })
   }
   const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs.sendForm('service_m70hb37', 'template_re5c2lc', {
+      from_name : form.name,
+      to_name : 'Mijan Shrestha',
+      from_email : form.email,
+      to_email : 'msmizans@gmail.com',
+      message : form.message
+    }, 'Jltm1_vgQ6GOdlisS')
+    .then(() => {
+      setLoading(false);
     
+      // Fetch a new quote
+      fetch('https://api.quotable.io/random')
+        .then((response) => response.json())
+        .then((data) => {
+          // Display the quote in the alert
+          alert(`Thank you! Your message has been sent. I will get back to you as soon as possible.\n\n"${data.content}" - ${data.author}`);
+        })
+        .catch((error) => {
+          console.error('Error fetching quote:', error);
+          // Fallback message in case of an error
+          alert('Thank you! Your message has been sent. I will get back to you as soon as possible.\n\n"Great things happen to those who take the initiative!"');
+        });
+    
+      // Reset the form
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      });
+    
+    }, (error) => {
+      setLoading(false);
+      console.log(error);
+      alert('Oops! Something went wrong. Please try again.');
+    })
   }
   return (
-    <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
+    <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden' id='contact'>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+       <p className={`{styles.sectionSubText}`}>Get in touch</p>  
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form
           ref={formRef}
@@ -68,7 +111,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white transition-all hover:bg-slate-400 hover:text-blue-950 font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -76,7 +119,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] relative z-10"
       >
         <EarthCanvas />
       </motion.div>

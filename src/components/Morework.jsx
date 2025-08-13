@@ -14,7 +14,7 @@ const ThemeCard = ({ index, name, image, }) => {
   const closeLightbox = () => setLightboxOpen(false);
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -37,22 +37,22 @@ const ThemeCard = ({ index, name, image, }) => {
       {isLightboxOpen && (
         <Lightbox image={image} onClose={closeLightbox} />
       )}
-    </motion.div>
+    </div>
   );
 };
 
 const Morework = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className='text-center'>
+      <div variants={textVariant()} className='text-center'>
         <p className={`${styles.sectionSubText}`}>More glimpse of theme designs</p>  
         <h2 className={styles.sectionHeadText} >Theme Designs</h2>
-      </motion.div> 
+      </div> 
       <div className="w-full text-center">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]">
+        <p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]">
           Following Themes showcases my skills and experience through real-world examples of my work.
            It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
-        </motion.p>
+        </p>
       </div>
       
       <div className="mt-20 mb-10 flex flex-wrap justify-center gap-7">

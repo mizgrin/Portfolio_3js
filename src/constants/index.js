@@ -258,10 +258,10 @@ const contactDetails = [
       iconBg: "#383E56",
       date: "January 2025 - Present",
       points: [
-        "Developed and maintained high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures."
-        "Built responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO."
-        "Implemented reusable components, modular SCSS architecture, and interactive features like sliders, accordions, forms, and dynamic UI elements."
-        "Integrated APIs, extended CMS functionality with custom logic, debugged issues, and improved performance through clean, maintainable, and scalable code."
+        "Developed and maintained high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
+        "Built responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO.",
+        "Implemented reusable components, modular SCSS architecture, and interactive features like sliders, accordions, forms, and dynamic UI elements.",
+        "Integrated APIs, extended CMS functionality with custom logic, debugged issues, and improved performance through clean, maintainable, and scalable code.",
         "Communicated directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final products aligned with business goals..",
       ],
     },

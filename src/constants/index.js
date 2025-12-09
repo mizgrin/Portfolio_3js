@@ -249,21 +249,21 @@ const contactDetails = [
       "Demonstrated independence and ownership in achieving project objectives."
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Outside Design and Tech Studio",
-    company_website: "https://outside.studio/",
-    icon: outside,
-    iconBg: "#383E56",
-    date: "January 2025 - Present",
-    points: [
-      "Develop and maintain high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
-      "Build responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimized for performance, accessibility, and SEO.",
-      "Implement reusable components, modular SCSS architectures, and interactive UI features such as sliders, accordions, dynamic forms, and animations.",
-      "Integrate APIs, extend CMS functionality with custom logic, debug issues, and improve performance through clean, scalable code.",
-      "Communicate directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final outputs align with business goals."
-    ],
-  },
+ {
+  title: "Web Developer",
+  company_name: "Outside Design and Tech Studio",
+  company_website: "https://outside.studio/",
+  icon: outside,
+  iconBg: "#383E56",
+  date: "January 2025 - Present",
+  points: [
+    "Develop and maintain high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
+    "Build responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO.",
+    "Implement reusable components, modular SCSS architectures, and interactive UI features such as sliders, accordions, dynamic forms, and animations.",
+    "Integrate APIs, extend CMS functionality with custom logic, debug issues, and improve performance through clean, scalable code.",
+    "Communicate directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final outputs align with business goals."
+  ],
+},
 ];
 
   

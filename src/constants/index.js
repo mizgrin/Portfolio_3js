@@ -254,7 +254,7 @@ const contactDetails = [
       title: "Web Developer",
       company_name: "Outside Design and tech studio",
       company_website:"https://outside.studio/",
-      icon: fintech,
+      icon: outside,
       iconBg: "#383E56",
       date: "January 2025 - Present",
       points: [

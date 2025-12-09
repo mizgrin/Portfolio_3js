@@ -91,6 +91,7 @@ export {
   fintech,
   school,
   inctic,
+ outside,
   brewingHouse,
   waterasia,
   balthali,

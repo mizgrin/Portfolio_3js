@@ -187,85 +187,85 @@ const contactDetails = [
     },
   ];
   
-  const experiences = [
-    {
-      title: "Secondary level computer teacher",
-      company_name: "New Holy Cross School",
-      company_website:"/",
-      icon:school ,
-      iconBg: "#383E56",
-      date: "June 2016 - November 2021",
-      points: [
-        "Delivered comprehensive instruction and support in computer fundamentals to secondary level students as a dedicated computer teacher."
-      ],
-    },
-    {
-      title: "Website Designer",
-      company_name: "Fintech Nepal",
-      company_website:"https://fintechnepal.com/",
-      icon: fintech,
-      iconBg: "#E6DEDD",
-      date: "2018 - December 2022",
-      points: [
-       " Proficient in meticulously translating PSD mockups into pixel-perfect HTML and CSS code, guaranteeing the creation of responsive webpages that adhere closely to design specifications.",
-       " Skilled in crafting intuitive UI/UX interfaces utilizing Semantic HTML, SCSS, JavaScript, and jQuery, ensuring seamless user experiences across platforms.",
-       " Demonstrated expertise in swiftly identifying and resolving intricate CSS and JavaScript issues within diverse projects, optimizing performance and functionality.",
-       " Exemplary leadership qualities showcased through mentoring interns and junior developers, coupled with adept planning and delegation of frontend tasks to achieve project objectives efficiently.",
-       " Proven track record of delivering high-quality frontend solutions through a meticulous approach to detail and a commitment to excellence.",
-      ],
-    },
-    {
-      title: "Full stack wordpress Developer",
-      company_name: "Fintech Nepal",
-      company_website:"www.fintechnepal.com.np",
-      icon: fintech,
-      iconBg: "#383E56",
-      date: "2020 - Dec 2022",
-      points: [
-        "Proficient in seamlessly translating PSD and Figma designs into meticulously crafted responsive HTML and SCSS code, augmenting interactivity using PHP within the WordPress framework.",
-        " Skilled in proficiently deploying dynamic wordpress websites to clients' domains, ensuring flawless functionality and user satisfaction.",
-       " Demonstrated expertise in diligently maintaining and updating existing WordPress projects, with a focus on optimizing performance and enhancing overall user experience.",
-       " Proven track record of delivering exceptional results through meticulous attention to detail and a commitment to staying abreast of the latest industry trends and best practices.",
-       " Adept at collaborating with cross-functional teams to drive successful  project outcomes, coupled with strong communication and problem-solving skills.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Software engineer - Frontend",
-      company_name: "Inctic labs",
-      company_website:"www.inctic.io",
-      icon: inctic,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - April 2024",
-      points: [
-        "Developed responsive web applications using JavaScript, HTML5, CSS3 and SCSS.",
-         "Developed and maintained UI designs with Figma tools",
-          "Proficient in JavaScript and Jquery for enhancing frontend functionalities.",
-         " Utilized Git for version control and collaborated within development teams.",
-         " Implemented responsive design principles and Material UI and Semantics HTML for visually appealing interfaces.",
-        "  Experienced in using blade files in Laravel development.",
-         " Adapted quickly to emerging technologies and systems.",
-        "  Demonstrated an independent mindset to drive project goals forward.",
-      ],
-    },
-   {
-      title: "Web Developer",
-      company_name: "Outside Design and tech studio",
-      company_website:"https://outside.studio/",
-      icon: outside,
-      iconBg: "#383E56",
-      date: "January 2025 - Present",
-      points: [
-        "Developed and maintained high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
-        "Built responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO.",
-        "Implemented reusable components, modular SCSS architecture, and interactive features like sliders, accordions, forms, and dynamic UI elements.",
-        "Integrated APIs, extended CMS functionality with custom logic, debugged issues, and improved performance through clean, maintainable, and scalable code.",
-        "Communicated directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final products aligned with business goals..",
-      ],
-    },
-  ];
+ const experiences = [
+  {
+    title: "Secondary Level Computer Teacher",
+    company_name: "New Holy Cross School",
+    company_website: "/",
+    icon: school,
+    iconBg: "#383E56",
+    date: "June 2016 - November 2021",
+    points: [
+      "Delivered comprehensive instruction in computer fundamentals to secondary-level students, ensuring strong foundational knowledge and practical skills."
+    ],
+  },
+  {
+    title: "Website Designer",
+    company_name: "Fintech Nepal",
+    company_website: "https://fintechnepal.com/",
+    icon: fintech,
+    iconBg: "#E6DEDD",
+    date: "2018 - December 2022",
+    points: [
+      "Translated PSD mockups into pixel-perfect HTML and CSS, ensuring responsive and design-accurate webpages.",
+      "Crafted intuitive UI/UX interfaces using Semantic HTML, SCSS, JavaScript, and jQuery for seamless user experiences.",
+      "Identified and resolved complex CSS and JavaScript issues across multiple projects to improve performance and stability.",
+      "Led and mentored interns and junior developers, effectively planning and delegating frontend tasks.",
+      "Maintained a strong track record of delivering high-quality frontend solutions with meticulous attention to detail."
+    ],
+  },
+  {
+    title: "Full Stack WordPress Developer",
+    company_name: "Fintech Nepal",
+    company_website: "https://fintechnepal.com.np",
+    icon: fintech,
+    iconBg: "#383E56",
+    date: "2020 - December 2022",
+    points: [
+      "Converted PSD and Figma designs into fully responsive HTML and SCSS layouts, integrating interactivity using PHP within WordPress.",
+      "Deployed dynamic WordPress websites to client domains, ensuring smooth setup and optimal functionality.",
+      "Maintained and updated existing WordPress projects, enhancing performance and user experience.",
+      "Stayed updated with industry trends and best practices to deliver high-quality solutions.",
+      "Collaborated effectively with designers, product managers, and developers to achieve project goals.",
+      "Implemented responsive design principles and ensured cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to the team."
+    ],
+  },
+  {
+    title: "Software Engineer - Frontend",
+    company_name: "Inctic Labs",
+    company_website: "https://www.inctic.io",
+    icon: inctic,
+    iconBg: "#E6DEDD",
+    date: "January 2023 - April 2024",
+    points: [
+      "Developed responsive web applications using JavaScript, HTML5, CSS3, and SCSS.",
+      "Created and maintained UI designs using Figma.",
+      "Enhanced frontend functionality with JavaScript and jQuery.",
+      "Utilized Git for version control and collaborated within cross-functional teams.",
+      "Implemented responsive and visually appealing interfaces using Semantic HTML and Material UI.",
+      "Worked with Blade templates in Laravel for frontend integration.",
+      "Adapted quickly to new tools, technologies, and development processes.",
+      "Demonstrated independence and ownership in achieving project objectives."
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Outside Design and Tech Studio",
+    company_website: "https://outside.studio/",
+    icon: outside,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [
+      "Develop and maintain high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
+      "Build responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimized for performance, accessibility, and SEO.",
+      "Implement reusable components, modular SCSS architectures, and interactive UI features such as sliders, accordions, dynamic forms, and animations.",
+      "Integrate APIs, extend CMS functionality with custom logic, debug issues, and improve performance through clean, scalable code.",
+      "Communicate directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final outputs align with business goals."
+    ],
+  },
+];
+
   
   const testimonials = [
     {

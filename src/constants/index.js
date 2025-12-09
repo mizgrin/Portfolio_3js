@@ -258,10 +258,10 @@ const contactDetails = [
   date: "January 2025 - Present",
   points: [
     "Develop and maintain high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures.",
-    "Build responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO.",
+    "Build responsive and pixel-perfect frontends using HTML5 SCS  JavaScript and jQuery optimizing UI for performance, accessibility, and SEO.",
     "Implement reusable components, modular SCSS architectures, and interactive UI features such as sliders, accordions, dynamic forms, and animations.",
     "Integrate APIs, extend CMS functionality with custom logic, debug issues, and improve performance through clean, scalable code.",
-    "Communicate directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final outputs align with business goals."
+    "Communicate directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final outputs align with business goals.",
   ],
 },
 ];

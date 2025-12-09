@@ -31,7 +31,7 @@ import jquery from './tech/jquery.png';
 import fintech from "./company/fintech-2.png";
 import school from "./company/school.png";
 import inctic from "./company/incticlabs_logo.jpeg";
-// import tesla from "./company/tesla.png";
+ import outside from "./company/outsidektm_logo.jpeg";
 
 import waterasia from "./projects/waterasia.png";
 import brewingHouse from "./projects/brewingHouse.png";

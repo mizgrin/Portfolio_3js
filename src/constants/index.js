@@ -20,6 +20,7 @@ import {
     wordpress,
     inctic,
     fintech,
+    outside,
     php,
     jquery,
     school,
@@ -237,7 +238,7 @@ const contactDetails = [
       company_website:"www.inctic.io",
       icon: inctic,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - April 2024",
       points: [
         "Developed responsive web applications using JavaScript, HTML5, CSS3 and SCSS.",
          "Developed and maintained UI designs with Figma tools",
@@ -247,6 +248,21 @@ const contactDetails = [
         "  Experienced in using blade files in Laravel development.",
          " Adapted quickly to emerging technologies and systems.",
         "  Demonstrated an independent mindset to drive project goals forward.",
+      ],
+    },
+   {
+      title: "Web Developer",
+      company_name: "Outside Design and tech studio",
+      company_website:"https://outside.studio/",
+      icon: fintech,
+      iconBg: "#383E56",
+      date: "January 2025 - Present",
+      points: [
+        "Developed and maintained high-performance websites using WordPress and Craft CMS, customizing themes and templates with Twig, Blade, PHP, and advanced CMS field structures."
+        "Built responsive, pixel-perfect frontends using HTML5, SCSS, JavaScript, and jQuery, optimizing UI for performance, accessibility, and SEO."
+        "Implemented reusable components, modular SCSS architecture, and interactive features like sliders, accordions, forms, and dynamic UI elements."
+        "Integrated APIs, extended CMS functionality with custom logic, debugged issues, and improved performance through clean, maintainable, and scalable code."
+        "Communicated directly with clients to gather requirements, provide technical guidance, deliver updates, and ensure final products aligned with business goals..",
       ],
     },
   ];
